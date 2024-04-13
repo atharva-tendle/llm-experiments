@@ -2,7 +2,7 @@ import streamlit as st
 import cohere
 from pb_utils import PaperBot, Vectorstore
 import os
-os.environ["COHERE_API_KEY"] = "21X1jAAJ8a50EIdBS25yh1bbILWkYjqUCQwcGSP9"
+os.environ["COHERE_API_KEY"] = "api_key"
 
 co = cohere.Client(os.environ["COHERE_API_KEY"])
 
